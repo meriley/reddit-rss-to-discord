@@ -1,11 +1,11 @@
 export const validImageEntry = `[![Here's another new notable, Overshock!](https://b.thumbs.redditmedia.com/YgQafhbO1WrXlBxqFTYqPnIyfqPsDweVF-agz3p2CjU.jpg "Here's another new notable, Overshock!")](https://www.reddit.com/r/pathofexile/comments/faj4gh/heres_another_new_notable_overshock/)
 
-submitted by [/u/Bex\_GGG](https://www.reddit.com/user/Bex_GGG)
-[[link]](https://i.redd.it/6t9xhsv39jj41.jpg) [\[comments\]](https://www.reddit.com/r/pathofexile/comments/faj4gh/heres_another_new_notable_overshock/)`
+submitted by [/u/Bex\\_GGG](https://www.reddit.com/user/Bex_GGG)
+[\\[link\\]](https://i.redd.it/6t9xhsv39jj41.jpg) [\\[comments\\]](https://www.reddit.com/r/pathofexile/comments/faj4gh/heres_another_new_notable_overshock/)`
 
 export const longSummary = `* * *
 
-\[LOOTFILTER\] NeverSink's itemfilter 7.7.1
+\\[LOOTFILTER\\] NeverSink's itemfilter 7.7.1
 -------------------------------------------
 
 Tierlists are a bit more up-to-date and improved, I've added a vial-tierlist that pulls data from poe.ninja and is updated every patch now. This is a rather small update, however...
@@ -41,7 +41,7 @@ Best regards,
 _~NeverSink_
 
 submitted by [/u/NeverSinkDev](https://www.reddit.com/user/NeverSinkDev)
-[\[link\]](https://www.reddit.com/r/pathofexile/comments/fahrrn/lootfilter_neversinks_itemfilter_771_vial/) [\[comments\]](https://www.reddit.com/r/pathofexile/comments/fahrrn/lootfilter_neversinks_itemfilter_771_vial/)`
+[\\[link\\]](https://www.reddit.com/r/pathofexile/comments/fahrrn/lootfilter_neversinks_itemfilter_771_vial/) [\\[comments\\]](https://www.reddit.com/r/pathofexile/comments/fahrrn/lootfilter_neversinks_itemfilter_771_vial/)`
 
 export const longInvalid = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a lobortis tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempor neque quis fringilla euismod. Cras sit amet leo a turpis auctor lobortis. Fusce hendrerit consectetur nunc et blandit. Praesent placerat odio ipsum, et ornare ipsum egestas a. Aenean viverra varius risus, eget feugiat ante.
 

@@ -13,7 +13,7 @@ export function getEmbeddedContent(
   message: string
 ): { image: string | undefined; summary: string } {
   const image = getEmbeddedImage(message)
-  const summaryParse = message.match(/(.*)(\[\[.*?link.*)/ims)
+  const summaryParse = message.match(/(.*)(\[\\\[.*?link.*)/ims)
 
   if (!summaryParse) {
     return { image: undefined, summary: message.substr(0, 1024) }
