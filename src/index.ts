@@ -43,7 +43,7 @@ function main() {
   Object.values(rss).forEach(r => {
     feeder.add({
       url: r.url,
-      refresh: 2000,
+      refresh: 30000,
     })
     console.log('Started watching', r.name, 'RSS feed at', r.url)
   })
@@ -74,6 +74,12 @@ function main() {
 
     const contentMarkDown = new TurndownService().turndown(description)
     const embeddedContent = getEmbeddedContent(contentMarkDown)
+
+    console.log(contentMarkDown)
+    console.log('----------------------')
+    console.log(embeddedContent)
+
+    return
 
     const discordMessage = {
       content: url,
