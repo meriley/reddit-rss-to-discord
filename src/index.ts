@@ -75,12 +75,6 @@ function main() {
     const contentMarkDown = new TurndownService().turndown(description)
     const embeddedContent = getEmbeddedContent(contentMarkDown)
 
-    console.log(contentMarkDown)
-    console.log('----------------------')
-    console.log(embeddedContent)
-
-    return
-
     const discordMessage = {
       content: url,
       embeds: [
