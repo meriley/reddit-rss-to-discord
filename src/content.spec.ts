@@ -1,5 +1,5 @@
 import { getEmbeddedContent } from './content'
-import { longSummary, longInvalid, validImageEntry } from './test/constants'
+import { longSummary, longInvalid, validImageEntry, validThumbnail } from './test/constants'
 
 describe('getEmbeddedContent', () => {
   it('should parse an entry with a valid image', () => {
@@ -25,5 +25,13 @@ describe('getEmbeddedContent', () => {
       getEmbeddedContent(longInvalid).summary.substr(0, 1024)
     )
     expect(getEmbeddedContent(longInvalid).summary.length).toBe(1024)
+  })
+
+  it('should parse a valid thumbnail if no image is provided', () => {
+    expect(getEmbeddedContent(validThumbnail)).toEqual({
+      image: 'https://b.thumbs.redditmedia.com/kUkb6Z50hN_ZFN1-4LSapbM-3X9HwLToCSiRVc5P4nQ.jpg',
+      summary:
+        '[\\[link\\]](https://www.pathofexile.com/forum/view-thread/2782234) [\\[comments\\]](https://www.reddit.com/r/pathofexile/comments/fdm647/manabased_gems_and_stormbind_demo/)',
+    })
   })
 })
