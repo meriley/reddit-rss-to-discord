@@ -8,7 +8,7 @@
   "private": false,
   "dependencies": {
     "hookcord": "^2.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "rss-feed-emitter": "^2.0.1",
     "turndown": "^5.0.3"
   },
